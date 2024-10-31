@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+  background: linear-gradient(
+    89.29deg,
+    #ffffff 49.86%,
+    #763af5 76.63%,
+    #a604f2 104.63%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainColor {
+  background: rgba(10, 13, 23, 1);
+}
+
+.formShadow {
+  backdrop-filter: blur(380px);
+}
+
+.formBackground {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.formBorder {
+  border: 2px solid rgba(10, 13, 23, 0.05);
+}
+
+.grayText {
+  background: rgba(255, 255, 255, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inputBorder {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.buttonBackground {
+  background: linear-gradient(90deg, #763af5 0%, #a604f2 117.18%);
+}
